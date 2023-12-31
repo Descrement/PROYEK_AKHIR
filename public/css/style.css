@@ -1,0 +1,69 @@
+<style>
+    /* Define your custom colors here */
+    :root {
+      --primary-color: #007bff;
+      --secondary-color: #6c757d;
+      --success-color: #28a745;
+      --danger-color: #dc3545;
+      --warning-color: #ffc107;
+      --info-color: #17a2b8;
+      --light-color: #f8f9fa;
+      --dark-color: #343a40;
+    }
+
+    /* Use a custom font from Google Fonts */
+    @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+    /* Apply the custom font to the body element */
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* Center the main content */
+    .container {
+      max-width: 800px;
+    }
+
+    /* Add some margin to the table elements */
+    .table {
+      margin-bottom: 15px;
+    }
+
+    /* Change the color of the table header */
+    .table thead th {
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    /* Change the color of the pagination links */
+    .pagination .page-link {
+      color: var(--primary-color);
+    }
+
+    /* Change the color of the pagination links when active or hovered */
+    .pagination .page-link:focus, .pagination .page-link:hover, .pagination .active .page-link {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+    }
+
+    /* Change the color of the buttons */
+    .btn-success {
+      background-color: var(--success-color);
+      border-color: var(--success-color);
+    }
+
+    .btn-primary {
+      background-color: var(--primary-color);
+      border-color: var(--primary-color);
+    }
+
+    .btn-danger {
+      background-color: var(--danger-color);
+      border-color: var(--danger-color);
+    }
+
+    .btn-dark {
+      background-color: var(--dark-color);
+      border-color: var(--dark-color);
+    }
+    </style>
